@@ -9,5 +9,5 @@ export const inter = Inter({
 export const roboto_mono = Roboto_Mono({
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-roboto_mono',
+    variable: '--font-roboto-mono',
 })
