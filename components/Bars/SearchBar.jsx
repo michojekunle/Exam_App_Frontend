@@ -9,7 +9,7 @@ const SearchBar = () => {
       <input
         type="text"
         placeholder='Search...'
-        className='font-sans w-full border bg-transparent border-gray-300 outline-none placeholder-gray-300 py-4 px-5 rounded-md text-gray-500 text-xl'
+        className='font-sans w-full border bg-transparent ml-2 border-gray-300 outline-none placeholder-gray-300 py-4 px-5 rounded-md text-gray-500 text-xl'
         value={searchTerm}
         onChange={e => setSearchTerm(e.target.value)}
     />

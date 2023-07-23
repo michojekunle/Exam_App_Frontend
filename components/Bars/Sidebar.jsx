@@ -19,6 +19,7 @@ const Sidebar = () => {
                 <span>{icon}</span>
                 <span>{title}</span>
               </Link>
+              <span>{router.asPath}</span>
             </li>
           ))}
         </ul>
