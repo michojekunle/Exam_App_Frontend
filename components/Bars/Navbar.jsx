@@ -6,24 +6,27 @@ import avatar from '@/public/assets/avatar.jpeg'
 
 const Navbar = () => {
   return (
-    <nav className='flex flex-row items-center w-full bg-white dark:bg-dark'>
-      <div className=''>
-
+    <nav className='flex flex-row items-center w-full bg-white dark:bg-dark py-4 px-8'>
+      <div className='md:w-96'>
+        {/* Brand Logo */}
       </div>
-      <SearchBar/>
-      <div className='flex items-center gap-[40px]'>
-        <div className='relative'>
-          <IoNotificationsOutline size={32} className='text-[24px]'/>
-          <div className='absolute bg-primary px-[3px] py-[0.5px] rounded-full text-white font-sans text-[8px] top-1 right-1 leading-1'>3</div>
-        </div>
-        <div className='h-[35px] w-1 rounded-md bg-gray-500'></div>
-        <div className='rounded-full w-16 h-16 overflow-hidden'>
-          <Image
-            src={avatar}
-            placeholder="blur"
-            layout='responsive'
-            className=''
-          />
+      
+      <div className='w-full flex items-center flex-row justify-between'>
+        <SearchBar/>
+        <div className='flex items-center justify-between gap-[35px]'>
+          <div className='relative'>
+            <IoNotificationsOutline size={32} className='text-[24px]'/>
+            <div className='absolute bg-primary px-[3px] py-[0.5px] rounded-full text-white font-sans text-[8px] top-1 right-1 leading-1'>3</div>
+          </div>
+          <div className='h-[35px] w-1 rounded-md bg-gray-400'></div>
+          <div className='rounded-full w-16 h-16 overflow-hidden self-end'>
+            <Image
+              src={avatar}
+              placeholder="blur"
+              layout='responsive'
+              className=''
+            />
+          </div>
         </div>
       </div>
     </nav>

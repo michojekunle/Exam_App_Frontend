@@ -16,10 +16,10 @@ module.exports = {
         sans: ['var(--font-inter)'],
         mono: ['var(--font-roboto-mono)'],
       },
+      colors: {
+        primary: '#3D81D0'
+      }
     },
-    colors: {
-      primary: '#3D81D0'
-    }
   },
   plugins: [],
 }
