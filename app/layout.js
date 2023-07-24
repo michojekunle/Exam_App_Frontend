@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
               <Sidebar/>
             </div>
             <main className='flex-1 bg-slate-300 h-full font-sans p-16'>
-              <span className='rounded-xl text-gray-300 bg-gray-100 text-xs font-mono font-light py-2 px-6 mb-6'>{pathname}</span>
+              {/* <span className='rounded-xl text-gray-300 bg-gray-100 text-xs font-mono font-light py-2 px-6 mb-6'>{pathname}</span>*/}
               {children}
             </main>
           </div>
