@@ -2,11 +2,11 @@
 
 import React from 'react'
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { menuItems } from '@/utils/constants';
 
 const Sidebar = () => {
-  const router = useRouter();
+  const pathname = usePathname();
 
 
   return (
@@ -14,12 +14,11 @@ const Sidebar = () => {
       <div className='flex flex-col h-full justify-between'>
         <ul className='list-style-none p-0'>
           {menuItems.map(({href, icon, title}) => (
-            <li className={`gap-1 mb-8 md:mb-11 font-bold capitalize text-black text-2xl md:text-[32px] ${router.asPath === href && 'bg-slate-700 border border-b-8 border-gray-500'}`} key={title}>
+            <li className={`gap-1 mb-8 md:mb-11 font-bold capitalize text-black pb-5 text-2xl md:text-[32px] ${pathname === href && 'border-b border-b-8 border-gray-500'}`} key={title}>
               <Link href={href} className='flex items-center gap-4'>
                 <span>{icon}</span>
                 <span>{title}</span>
               </Link>
-              <span>{router.asPath}</span>
             </li>
           ))}
         </ul>

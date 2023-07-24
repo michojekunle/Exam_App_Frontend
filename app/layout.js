@@ -1,7 +1,11 @@
+'use client';
+
 import './globals.css'
+import { usePathname } from 'next/navigation';
 import { inter, roboto_mono } from './fonts';
 import Navbar from '@/components/Bars/Navbar';
 import Sidebar from '@/components/Bars/Sidebar';
+
 
 export const metadata = {
   title: 'Exam App',
@@ -9,6 +13,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  const pathname = usePathname();
   return (
     <html lang="en">
       <body className={`${inter.variable} ${roboto_mono.variable}`}>
@@ -18,7 +23,8 @@ export default function RootLayout({ children }) {
             <div className='w-full md:w-96 h-full relative'>
               <Sidebar/>
             </div>
-            <main className='flex-1 bg-slate-300 h-full'>
+            <main className='flex-1 bg-slate-300 h-full font-sans p-16'>
+              <span className='rounded-xl text-gray-300 bg-gray-100 text-xs font-mono font-light py-2 px-6 mb-6'>{pathname}</span>
               {children}
             </main>
           </div>
