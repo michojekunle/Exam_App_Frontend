@@ -7,10 +7,9 @@ import avatar from '@/public/assets/avatar.jpeg'
 const Navbar = () => {
   return (
     <nav className='flex flex-row items-center w-full bg-white dark:bg-dark py-4 px-8'>
-      <div className='md:w-96'>
+      <div className='md:w-72'>
         {/* Brand Logo */}
       </div>
-      
       <div className='w-full flex items-center flex-row justify-between'>
         <SearchBar/>
         <div className='flex items-center justify-between gap-[35px]'>
