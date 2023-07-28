@@ -22,7 +22,7 @@ const Sidebar = () => {
             </li>
           ))}
         </ul>
-        <Link href='/logout' className='text-xl text-gray-600'>Log Out</Link>
+        <Link href='/' className='text-xl text-gray-600'>Log Out</Link>
       </div>
     </aside>
   )
