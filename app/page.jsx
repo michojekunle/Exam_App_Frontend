@@ -16,7 +16,7 @@ export default function Dashboard() {
   return (
     <main className="w-full flex gap-7 md:gap-10">
       <div className='w-3/5 flex flex-col gap-10'>
-        <div className='w-full bg-primary rounded-xl p-10 relative flex gap-2'>
+        <div className='w-full bg-primary rounded-xl p-12 relative flex gap-4'>
           <span className="upper_left">
             <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" viewBox="0 0 90 70" fill="none">
               <rect width="70.5804" height="66.4286" rx="11.625" transform="matrix(1 0 0 -1 -4 70)" fill="white" fill-opacity="0.2"/>
@@ -41,13 +41,13 @@ export default function Dashboard() {
               <rect width="33.3928" height="31.4285" rx="5.49999" transform="matrix(1 0 0 -1 11 31.4287)" fill="white" fill-opacity="0.2"/>
             </svg>
           </span>
-          <div className='w-[550px]'>
+          <div className='w-[550px] max-h-72 overflow-hidden'>
             <Image
               src={DashboardAvatar}
               alt='image_v'
               placeholder='blur'
               layout='responsive'
-              className='object-contain'
+              className='object-cover'
             />
           </div>
           <div className="text-white font-mono">
@@ -73,6 +73,7 @@ export default function Dashboard() {
         <div className='bg-white rounded-xl p-4 w-full'>
          <h3 className='font-bold text-2xl capitalize mb-2'>Latest News</h3>
          <div className='flex flex-col gap-5'>
+            <NewsCard summary="Unilag set to start the registration of upcoming putme screening test"/>
             <NewsCard summary="Unilag set to start the registration of upcoming putme screening test"/>
             <NewsCard summary="Unilag set to start the registration of upcoming putme screening test"/>
          </div>
