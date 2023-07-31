@@ -6,7 +6,7 @@ import avatar from '@/public/assets/avatar.jpeg'
 
 const Navbar = () => {
   return (
-    <nav className='flex flex-row items-center w-full bg-white dark:bg-dark px-8 h-28'>
+    <nav className='flex flex-row items-center w-full bg-white dark:bg-dark px-8 py-2'>
       <div className='md:w-72'>
         {/* Brand Logo */}
       </div>

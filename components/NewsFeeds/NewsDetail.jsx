@@ -2,9 +2,9 @@ import React from 'react'
 
 const NewsDetail = ({  }) => {
   return (
-    <div>
+    <article className='bg-white p-6 w-full'>
       
-    </div>
+    </article>
   )
 }
 
