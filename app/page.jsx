@@ -53,7 +53,7 @@ export default function Dashboard() {
           <div className="text-white font-mono">
             <h5 className='text-md mb-3'>Hi, Opeyemi Ayinke</h5>
             <h3 className='text-2xl'>Welcome to Exam App</h3>
-            <p className='my-4 text-md'>
+            <p className='my-5 text-md'>
               We strive to ensure that your pre-exam experience is optimized,
               enabling you to excel in the actual examination and achieve your
               full potential.
