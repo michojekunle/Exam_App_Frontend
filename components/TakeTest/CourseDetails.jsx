@@ -1,6 +1,6 @@
 import React from 'react'
 
-const CourseDetails = () => {
+const CourseDetails = ({  }) => {
   return (
     <div>CourseDetails</div>
   )
