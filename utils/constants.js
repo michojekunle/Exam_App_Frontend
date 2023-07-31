@@ -54,3 +54,18 @@ export const courses = [
     summary: "Mathematics is an area of knowledge that includes the topics of numbers, formulas and related structures, shapes. We have over 1000 questions set for you on mathematics, Enjoy!!"
   },
 ]
+
+const newsfeeds = [
+  {
+    title: "",
+    details: "",
+  },
+  {
+    title: "",
+    details: "",
+  },
+  {
+    title: "",
+    details: "",
+  },
+]

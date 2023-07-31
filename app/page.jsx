@@ -14,7 +14,7 @@ export default function Dashboard() {
   const percentage = 63;
 
   return (
-    <main className="w-full flex gap-7 md:gap-10">
+    <main className="w-full flex gap-7 md:gap-10  pbpb-10">
       <div className='w-3/5 flex flex-col gap-10'>
         <div className='w-full bg-primary rounded-xl p-12 relative flex gap-4'>
           <span className="upper_left">
