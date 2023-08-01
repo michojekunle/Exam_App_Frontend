@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
             <div className='w-full md:w-72 h-full relative'>
               <Sidebar/>
             </div>
-            <main className='flex-1 bg-gray-300 h-full font-sans p-10 overflow-scroll'>
+            <main className='flex-1 bg-gray-300 h-full font-sans p-10 overflow-y-scroll'>
               {children}
             </main>
           </div>

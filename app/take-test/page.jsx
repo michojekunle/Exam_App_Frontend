@@ -1,6 +1,6 @@
 export default function TakeTest() {
   return (
-    <main className="p-24">
+    <main className="w-full flex flex-col gap-10">
       Take a Test
     </main>
   )

@@ -14,7 +14,7 @@ export default function Dashboard() {
   const percentage = 63;
 
   return (
-    <main className="w-full flex gap-7 md:gap-10  pbpb-10">
+    <main className="w-full flex gap-7 md:gap-10  pb-32">
       <div className='w-3/5 flex flex-col gap-10'>
         <div className='w-full bg-primary rounded-xl p-12 relative flex gap-4'>
           <span className="upper_left">
@@ -63,8 +63,8 @@ export default function Dashboard() {
         </div>
         <div className='flex flex-col w-full gap-4 bg-white rounded-xl p-8'>
           <h3 className='font-bold text-2xl capitalize mb-2'>Courses</h3>
-          {courses.map(({courseCode, courseTitle}) => (
-            <CourseCard courseCode={courseCode} courseTitle={courseTitle}/>
+          {courses.map(({id, courseCode, courseTitle}) => (
+            <CourseCard courseCode={courseCode} courseTitle={courseTitle} key={id}/>
           ))}
           <Link href='/take-test' className='block w-full text-right text-md mt-3 text-primary '>See other courses...</Link>
         </div>
