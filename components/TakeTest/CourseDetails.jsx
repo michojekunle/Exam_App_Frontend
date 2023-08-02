@@ -1,8 +1,8 @@
-import React from 'react'
-
 const CourseDetails = ({  }) => {
   return (
-    <div>CourseDetails</div>
+    <div className='bg-white w-full p-8 '>
+      
+    </div>
   )
 }
 
