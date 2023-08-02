@@ -83,7 +83,18 @@ export const newsfeeds = [
 export const notifications = [
   {
     id: 1,
-    notification: "",
+    notification: "We will be updating our site today sdiosdf sdfosdfs fosf sfnsfsf jufefjn vnnvbof ibjbgk bgbblh bnib fb kdbuog bm,bjfbgb f,gbouf bfgbo bgobngurrjkgwiof vlsxio bndfv iog fuorg",
+    date_posted: "26/6/23"
+  },
+  {
+    id: 1,
+    notification: "fuifbf ifshfb  ierfbieb rguefuierg egie gerige e guerge ggiegie geiuge geug eguiege guiegowfowfe egf erge r eufe evuefue enenevbefeve e egbwr wfeuff bbgevbfg ",
+    date_posted: "26/6/23"
+  },
+  {
+    id: 1,
+    notification: "We will be updating our site today lorem ipsum atefdf dfjfdf dfdfdvusdoiw dd dfudfnvhdf uidf kdfuf dfkusdfjd fsudf u dfsudfduf dfuisdfdfhisdfu dfsuidf sdfi futing",
+    date_posted: "26/6/23"
   },
 ]
 

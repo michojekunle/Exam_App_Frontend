@@ -64,7 +64,7 @@ export default function Dashboard() {
         <div className='flex flex-col w-full gap-4 bg-white rounded-xl p-8'>
           <h3 className='font-bold text-2xl capitalize mb-2'>Courses</h3>
           {courses.map(({id, courseCode, courseTitle}) => (
-            <CourseCard courseCode={courseCode} courseTitle={courseTitle} key={id}/>
+            <CourseCard courseCode={courseCode} courseTitle={courseTitle} key={id} small={false}/>
           ))}
           <Link href='/take-test' className='block w-full text-right text-md mt-3 text-primary '>See other courses...</Link>
         </div>
