@@ -13,9 +13,9 @@ export default function TakeTest() {
   }
 
   return (
-    <main className="w-full flex flex-col gap-10 pb-32">
+    <main className="w-full flex flex-col gap-10 pb-32 relative">
       {courses.map((course) => <CourseDetails key={course.id} course={course} handleStart={handleStart}/>)}
-      {displayModal && <TakeTestModal />}
+      {displayModal && <TakeTestModal handleStart={handleStart}/>}
     </main>
   )
 }

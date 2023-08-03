@@ -19,6 +19,10 @@
     border-radius: 8px;
   }
 
+.overflow {
+  @apply absolute right-0 left-0 top-0 bottom-0 bg-transparent z-10 divide-primary backdrop-blur-md
+}
+
 .upper_left {
     @apply absolute top-0 left-0
 }
