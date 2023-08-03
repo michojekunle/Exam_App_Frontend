@@ -11,11 +11,11 @@ export default function TakeTest() {
   const handleStart = () => {
     setDisplayModal((prev) => !prev);
   }
-  
+
   return (
     <main className="w-full flex flex-col gap-10 pb-32">
-      {courses.map((course) => <CourseDetails key={course.id} course={course}/>)}
-      {displayModal && <TakeTestModal handleStart={handleStart}/>}
+      {courses.map((course) => <CourseDetails key={course.id} course={course} handleStart={handleStart}/>)}
+      {displayModal && <TakeTestModal />}
     </main>
   )
 }
