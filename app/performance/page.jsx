@@ -11,7 +11,7 @@ export default function Performance(){
     const { percentage, test_taken, questions_answered, answers_gotten, courses_taken, courses_not_taken } = performance;
 
     return (
-        <main className='w-full h-full pb-32'>
+        <main className='w-full min-h-full pb-32'>
             <div className="w-full h-full flex gap-10">
                 <div className='w-2/4 bg-white rounded-xl p-8 h-full'>
                     <h4 className="capitalize text-3xl font-bold mb-12">My Performance</h4>
