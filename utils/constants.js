@@ -6,27 +6,27 @@ import { HiOutlineNewspaper }  from 'react-icons/hi';
 
 export const menuItems = [
     {
-      href: "/",
+      href: "/dashboard",
       icon: <RxDashboard size={20}/>,
       title: 'Dashboard',
     },
     {
-      href: "/take-test",
+      href: "/dashboard/take-test",
       icon: <BiBookOpen size={20}/>,
       title: 'Take Test'
     },
     {
-      href: "/news-feeds",
+      href: "/dashboard/news-feeds",
       icon: <HiOutlineNewspaper size={20}/>,
       title: 'News Feeds'
     },
     {
-      href: "/notifications",
+      href: "/dashboard/notifications",
       icon: <IoNotificationsOutline size={20}/>,
       title: 'Notifications'
     },
     {
-      href: "/performance",
+      href: "/dashboard/performance",
       icon: <GrDocumentPerformance size={20}/>,
       title: 'Performance'
     },

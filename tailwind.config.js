@@ -17,7 +17,8 @@ module.exports = {
         mono: ['var(--font-roboto-mono)'],
       },
       colors: {
-        primary: '#3D81D0'
+        primary: '#3D81D0',
+        lightBlue: '#E7F6F8',
       }
     },
   },
